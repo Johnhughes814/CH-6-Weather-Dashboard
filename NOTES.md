@@ -38,3 +38,16 @@ $.ajax({
   }
 });
 ```
+
+
+```
+
+// HOW THIS IF STATEMENT WORKS:
+// only look at forecasts around 3:00pm
+// if (data.list[0].dt_txt.indexOf("15:00:00") !== -1) {
+//     if not found = -1
+// if  (-1 !== -1) {
+// if  (false) {
+// if (data.list[0].dt_txt.indexOf("15:00:00") !== -1) {
+
+```
