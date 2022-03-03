@@ -1,24 +1,26 @@
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the 
-    city name
-    the date
-    an icon representation of weather conditions
-    the temperature
-    the humidity
-    the wind speed
-    the UV index (color whether the conditions are favorable, moderate, or severe )
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the 
-date
-    an icon representation of weather conditions
-    the temperature
-    the wind speed
-    the humidity
 
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+# Weather Dashboard
+
+A website to help you keep track of the weather in any given city!
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm start
+```
+
+
+![Logo](https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png)
+
+## Authors
+
+- [@Johnhughes814](https://github.com/Johnhughes814)
+
+# Tech
+![![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
