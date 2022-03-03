@@ -20,10 +20,13 @@ $( "#button-container button" ).on( "click", function( event ) {
 type (default: 'GET')
 Type: String
 An alias for method. You should use type if you're using versions of jQuery prior to 1.9.0.`
-
+```
 
 
 Call a local script on the server /api/getWeather with the query parameter zipcode=97201 and replace the element #weather-temp's html with the returned text.
+
+
+
 ```
 $.ajax({
   url: "/api/getWeather",
